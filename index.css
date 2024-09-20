@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 550px;
+    min-height: 270px;
+    background: #6943FF;
+}
+
+.hero h1 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.hero input {
+    width: 100px;
+    height: 100px;
+    background: none;
+    border: 1px solid #B295FF;
+    margin-bottom: 20px;
+    font-size: 58px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero button {
+    background: none;
+    color: #3D3D3D;
+    background: #ffffff;
+    border: unset;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.conversions-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.conversion {
+    background: #F4F4F4;
+    width: 95vw;
+    text-align: center;
+}
+
+.conversion h3 {
+    color: #5A537B;
+    margin-bottom: 15px;
+}
+
+.conversion p {
+    margin-top: 0px;
+    color: #353535;
+    margin-bottom: 25px;
+}
